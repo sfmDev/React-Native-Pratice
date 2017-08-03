@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
   topView: {
     flex: 1,
     justifyContent: 'space-around',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     backgroundColor: '#FD5056',
     flexDirection: 'row',
     paddingLeft: 10,
@@ -105,13 +105,13 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 60 * 0.1,
   },
   centerViewItem2: {
-    flex: 1,
+    flex: 2,
     height: 80,
     backgroundColor: 'yellow',
     borderBottomLeftRadius: 80 * 0.1,
   },
   centerViewItem3: {
-    flex: 1,
+    flex: 3,
     height: 100,
     backgroundColor: 'red',
     borderBottomLeftRadius: 100 * 0.1,
